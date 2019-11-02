@@ -309,13 +309,11 @@ print(list(myset))
 
 #Write a Python program to check a list is empty or not.
 
-def empty_or_not(l):
-    if not l:
-        print('The list is empty')
-    else:
-        print(l)
-empty_or_not([])
-empty_or_not([1,2])
+def list_is_empty(l):
+    return not list
+
+list_is_empty([]) # Prints true
+list_is_empty([1,2]) # Prints false because this list is not empty
 
 
 # In[70]:
